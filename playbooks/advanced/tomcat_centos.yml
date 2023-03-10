@@ -1,5 +1,5 @@
 ---
-- hosts: centos 
+- hosts: centos
   become: yes
   tasks:
    - name: Install Java 1.8
